@@ -1,0 +1,39 @@
+go mod init booking-app
+
+All our code must belong to a package.
+The first statement in Go file must be "package ..."
+Standard name for the main application is "main"
+
+// Compiles and runs the code
+go run <file name>  (e.g. go run main.go)
+
+
+
+- Simple Go file (main.go):
+
+	package main
+
+	import "fmt"
+
+	func main() {
+		fmt.Println("Hi there!")
+	}
+
+- How to run go.
+	- With gitbash, Navigate into the folder with main.go
+	- To run:
+		go run main.go
+		
+- Some commands awailable with the Go CLI
+	- go build: compiles a bunch of go source code files
+		- If you were to type "go build main.go" it would build a binary 
+		  called main that is an executable.  Typing ./main will run the program.
+	- go run: compiles and executes one or two files
+	- go fmt: formats all the code in each file in the current directory
+	- go install: compiles and "installs" a package
+	- go get: downloads the raw source code of someone else's package
+	- go test: runs any tests associated with the current project
+	
+- If you were to type "go build main.go" it would build a binary called
+  main that is an executable.  Typing ./main will run the program.
+ 
