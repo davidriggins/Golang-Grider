@@ -42,4 +42,8 @@ go run <file name>  (e.g. go run main.go)
 	- A collection of common source code files
 	- The first line of the file declares the line it belongs to.
 	- main is used to create an executable type package
+
+- What does import mean?
+	- Gives a packages access to the code in the imported package.
+	- Reference packages at golang.org/pkg/
 	
