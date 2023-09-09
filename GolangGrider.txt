@@ -55,3 +55,16 @@ go run <file name>  (e.g. go run main.go)
 	- Import other needed packages: 	import "fmt"
 	- Declare functions:				func main(){}
 	
+- Variable Declarations
+	- var <variable name> <variable type> = <value>
+		- var card string = "Ace of Spades"
+	- Don't need to write variable name in this case, you could do:
+		- card := "Ace of Spades"
+	- Only you the ":=" syntax in variable definition. Not reassignment.
+		- card = "Five of Diamonds"
+		
+- Basic Variable types:
+	- bool
+	- string
+	- int
+	- float64
