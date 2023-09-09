@@ -37,3 +37,9 @@ go run <file name>  (e.g. go run main.go)
 - If you were to type "go build main.go" it would build a binary called
   main that is an executable.  Typing ./main will run the program.
  
+- What does "package" mean?
+	- Package == Project == Workspace
+	- A collection of common source code files
+	- The first line of the file declares the line it belongs to.
+	- main is used to create an executable type package
+	
