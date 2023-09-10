@@ -88,3 +88,12 @@ go run <file name>  (e.g. go run main.go)
 	- To iterate through a slice:
 		for i, card := range cards { fmt.Println(i, card)}
 		
+- Type define the kind of data that a variable can hold and what
+  operations can be performed on that data.
+	- type deck []string
+	
+- Receiver Functions.
+	- func (<copy of variable> <type to attach method to>) <function name>() {}
+		- func (d deck) print(){}
+			- kind of like func (cards deck) print() {}
+			
