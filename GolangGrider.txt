@@ -72,4 +72,19 @@ go run <file name>  (e.g. go run main.go)
 - Functions and Return Types
 	- func <function name>() <return type> {}
 		- func newCard() string { return "Five" }
+
+- Arrays
+	- Fixed length list of items.
+	- Every item must be same data type
+	
+- Slice
+	- An array that can grow or shrink.
+	- Every item must be same data type
+	- To create a slice:
+		cards := []string{"Ace of Diamonds", newCard()}
+	- To add to a slice. Note: it does not append to the original
+	  slice, but adds to a new one.
+		cards = append(cards, "Six of Spades")
+	- To iterate through a slice:
+		for i, card := range cards { fmt.Println(i, card)}
 		
