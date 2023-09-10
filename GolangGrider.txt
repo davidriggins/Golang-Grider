@@ -68,3 +68,8 @@ go run <file name>  (e.g. go run main.go)
 	- string
 	- int
 	- float64
+
+- Functions and Return Types
+	- func <function name>() <return type> {}
+		- func newCard() string { return "Five" }
+		
